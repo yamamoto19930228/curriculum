@@ -22,7 +22,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [添え字が1と4の要素の値を表示]
+        // [添え字が1と4の要素の値の合計値を表示]
         System.out.println(intArray[1] + intArray[4]);
 
     }
