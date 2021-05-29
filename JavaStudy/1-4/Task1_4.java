@@ -3,8 +3,8 @@
  *
  * ログイン機能をイメージして処理を書いてみましょう！
  * ・アカウント情報としてデータベースに登録されている情報
- * 　名前：alice
- * 　パスワード：alice123
+ *  名前：alice
+ *  パスワード：alice123
  * 本課題では、すべての定数(合計６種類)を使いつつ、if文の使い方に慣れていきましょう！
  * 問① 〜 問⑤まで回答お願いします！
  *
@@ -39,18 +39,18 @@ public class Task1_4 {
 
         // ② 「name」の値が「USER_NAME」と等しく、「 pass 」の値が「USER_PASSWORD」と等しい場合。
         //      定数を使用して「 ログイン成功です 」と出力してください。
-        if (name == USER_NAME && pass == USER_PASSWORD) {
+        if (name.equals(USER_NAME) && pass.equals(USER_PASSWORD)) {
             System.out.println(CONST_MSG_SUCCESS);
         }
 
-        // ③ 「USER_RNAME」の値のみ等しい場合。
+        // ③ 「USER_NAME」の値のみ等しい場合。
        //     定数を使用して「 パスワードに誤りがあります。 」 と出力してください。
-        else if (name != USER_NAME && pass == USER_PASSWORD) {
+        else if (name.equals(USER_NAME) && pass != USER_PASSWORD) {
             System.out.println(CONST_MSG_ERROR_PASS);
         }
         
         // ④ 「USER_PASSWORD」の値のみ等しい場合。
-        else if (name == USER_NAME && pass != USER_PASSWORD) {
+        else if (name != USER_NAME && pass.equals(USER_PASSWORD)) {
             System.out.println(CONST_MSG_ERROR_NAME);
         }
        //定数を使用して「 名前に誤りがあります。 」と出力してください。
