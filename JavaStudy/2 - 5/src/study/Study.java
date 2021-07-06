@@ -35,7 +35,7 @@ public class Study {
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * [putメソッドを使用し、HashMapオブシェクトにSHOP_SHOHIN_01（要素）を追加している]
+         * [putメソッドを使用し、HashMapオブシェクトにSHOP_SHOHIN_01（要素）に加え100の値を追加している]
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
