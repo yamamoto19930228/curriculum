@@ -1,0 +1,125 @@
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+
+
+/* -------ヘッダー------- */
+
+.header {
+    background-color: #141f40;
+    width: 400px;
+    height: 100px;
+
+    position: relative;
+}
+
+.white {
+    background-color: white;
+    width: 160px;
+    height: 60px;
+
+    position: absolute;
+    top: 50px;
+    left: 230px;
+}
+
+.red-left {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 60px;
+    left: 240px;
+
+}
+
+.red-middle {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 60px;
+    left: 290px;
+}
+
+.red-right {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 60px;
+    left: 340px;
+}
+/* -------ヘッダー------- */
+
+
+/* -------メイン-------- */
+
+.left {
+    background-color: #80bfa8;
+    height:250px;
+    width:150px;
+    float: left;
+}
+
+.right {
+    background-color: #8c2727;
+    height:250px;
+    width:250px;
+    float: left;
+
+    position: relative;
+}
+
+.orange-top {
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    border: 5px solid white;
+    /* float: left; */
+
+    position: absolute;
+    top: 40px;
+    left: 45px;
+}
+
+.orange-middle {
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    border: 5px solid white;
+    /* float: left; */
+
+    position: absolute;
+    top: 100px;
+    left: 45px;
+}
+
+.orange-bottom {
+    background-color: #ff863f;
+    width: 140px;
+    height: 40px;
+    border: 5px solid white;
+    /* float: left; */
+
+    position: absolute;
+    top: 160px;
+    left: 45px;
+}
+
+
+/* -------メイン-------- */
+
+
+/* -------フッター------- */
+.footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+/* -------フッター------- */

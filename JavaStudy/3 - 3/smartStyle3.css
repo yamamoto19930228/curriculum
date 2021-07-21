@@ -1,0 +1,42 @@
+@media screen and (max-width: 479px) {
+
+    .header, .left, .right, .footer {
+        width: 200px;
+    }
+
+    .header {
+        height: 200px;
+    }
+
+    .white {
+        width: 60px;
+        height: 160px;
+        left: 80px;
+    }
+
+    .red-left {
+        left: 90px;
+    }
+
+    .red-middle {
+        top: 110px;
+        left: 90px;
+    }
+
+    .red-right {
+        top: 160px;
+        left: 90px;
+    }
+
+    .left {
+        height:100px;
+    }
+
+    .left, .right {
+        float: none;
+    }      
+    
+    .orange-top, .orange-middle, .orange-bottom {
+        left: 25px;
+    }
+}
