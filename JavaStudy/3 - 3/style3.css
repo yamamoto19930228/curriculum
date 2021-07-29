@@ -22,39 +22,39 @@
     height: 60px;
 
     position: absolute;
-    top: 50px;
-    left: 230px;
+    top: 20px;
+    left: 220px;
 }
 
 .red-left {
-    background-color: red;
+    background-color: #a9004b;
     width: 40px;
     height: 40px;
 
     position: absolute;
-    top: 60px;
-    left: 240px;
+    top: 30px;
+    left: 230px;
 
 }
 
 .red-middle {
-    background-color: red;
+    background-color: #a9004b;
     width: 40px;
     height: 40px;
 
     position: absolute;
-    top: 60px;
-    left: 290px;
+    top: 30px;
+    left: 280px;
 }
 
 .red-right {
-    background-color: red;
+    background-color: #a9004b;
     width: 40px;
     height: 40px;
 
     position: absolute;
-    top: 60px;
-    left: 340px;
+    top: 30px;
+    left: 330px;
 }
 /* -------ヘッダー------- */
 

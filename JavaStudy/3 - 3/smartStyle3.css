@@ -11,21 +11,21 @@
     .white {
         width: 60px;
         height: 160px;
-        left: 80px;
+        left: 70px;
     }
 
     .red-left {
-        left: 90px;
+        left: 80px;
     }
 
     .red-middle {
-        top: 110px;
-        left: 90px;
+        top: 80px;
+        left: 80px;
     }
 
     .red-right {
-        top: 160px;
-        left: 90px;
+        top: 130px;
+        left: 80px;
     }
 
     .left {
