@@ -21,10 +21,8 @@
 				<td><input type="text" name="id"></td>
 			</tr>
 		</table>
-		<!-- name、idの入力エリアを作成しなさい -->
 	</div>
 	</main>
-
 </body>
 	<%@ include file="footer.jsp"%>
 </html>

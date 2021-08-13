@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*----------- ヘッダー ----------- */
 .header {
 	background-color: gray;
@@ -17,11 +18,13 @@
 	font-size: 10px;
 }
 
+
 /*----------- jspTest ----------- */
 .main {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
 
 /*----------- footer ----------- */
 .footer {
